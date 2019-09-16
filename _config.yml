@@ -19,12 +19,11 @@ description: >- # this means to ignore newlines until "baseurl:"
   Greenie welcomes you aboard her Cloud, with occasional musings on learning to be a developer.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username: jekyll
+# twitter_username: jekyllrb
+github_username: Greenie10
 
 # Build settings
 markdown: kramdown
-# theme: minima
 theme: "just-the-docs"
 # Enable or disable the site search
 # Supports true (default) or false

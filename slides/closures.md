@@ -1,5 +1,13 @@
+---
+layout: default
+title: Closures
+nav_exclude: true
+---
+
 ## Font Awesome Icons
+
 ### (Shortcut Syntax)
+
 ## Feature Demonstration
 
 ---
@@ -22,6 +30,7 @@
 ---
 
 ## Inline Icons Within Text
+
 <br>
 ### GitPitch @fa[heart] @fa[github], @fa[gitlab], and @fa[bitbucket].
 
