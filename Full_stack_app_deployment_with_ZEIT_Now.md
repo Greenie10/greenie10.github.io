@@ -6,9 +6,9 @@ nav_order: 3
 
 # Full stack app deployment with ZEIT Now
 
-This project was started so many times, caught in a never ending Groundhog Day of GitHub repositories. Luckily I was gradually nudged off the merry-go-round by smart colleagues.
+This is a step-by-step tutorial for a full stack app, using React as frontend, Node backend with Apollo/GraphQL connected to MongoDB Atlas online database, all deployed using ZEIT Now.
 
-(This is _very much_ a work in progress. It is simply stepped notes, with very little explanation. Explanation will be in the write up for each section.)
+(<span class="text-red-300">**WARNING**</span> _very much_ a work in progress. It is simply stepped notes, with very little explanation. Explanation will be in the write up for each section.)
 
 ## Roadmap
 
