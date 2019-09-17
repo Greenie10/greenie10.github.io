@@ -8,7 +8,7 @@ nav_order: 3
 
 This project was started so many times, caught in a never ending Groundhog Day of GitHub repositories. Luckily I was gradually nudged off the merry-go-round by smart colleagues.
 
-(This is _very much_ a work in progress... therefore unfit for human consumption just yet)
+(This is _very much_ a work in progress. It is simply stepped notes, with very little explanation. Explanation will be in the write up for each section.)
 
 ## Roadmap
 
@@ -21,7 +21,9 @@ This project was started so many times, caught in a never ending Groundhog Day o
 | E     | Set up the Apollo backend 'example-server'          | write up     |
 | F     | Apollo GraphQL stuff                                | finish notes |
 | G     | Deploy and check 'example-server' in playground     | finish notes |
-| H - Z | ...                                                 | ...          |
+| H - Z | ...                                                 | todo         |
+|       | split parts into separate pages                     | todo         |
+|       | make stepped github repos?                          | todo         |
 
 ## Part A: Set up accounts in MongoDB Atlas and ZEIT Now
 
