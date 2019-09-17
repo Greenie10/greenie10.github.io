@@ -1,28 +1,27 @@
 ---
 layout: default
 title: Full stack app deployment with ZEIT Now
+nav_order: 3
 ---
 
 # Full stack app deployment with ZEIT Now
 
-"A journey of 1000 miles begins with the first step"
-
-This project was started so many times, and I was caught in a never ending Groundhog Day of GitHub repositories.
+This project was started so many times, caught in a never ending Groundhog Day of GitHub repositories. Luckily I was gradually nudged off the merry-go-round by smart colleagues.
 
 (This is _very much_ a work in progress... therefore unfit for human consumption just yet)
 
 ## Roadmap
 
-| Part | Title                                               | Next step    |
-| :--- | :-------------------------------------------------- | :----------- |
-| A    | Set up accounts in MongoDB Atlas and ZEIT Now       | write up     |
-| B    | Set up the React frontend 'example-users'           | write up     |
-| C    | Setup database in MongoDB                           | write up     |
-| D    | Secrets, environment variables & connection strings | write up     |
-| E    | Set up the Apollo backend 'example-server'          | write up     |
-| F    | Apollo GraphQL stuff                                | finish notes |
-| G    | Deploy and check 'example-server' in playground     | finish notes |
-| H    |                                                     |              |
+| Part  | Title                                               | Next step    |
+| :---- | :-------------------------------------------------- | :----------- |
+| A     | Set up accounts in MongoDB Atlas and ZEIT Now       | write up     |
+| B     | Set up the React frontend 'example-users'           | write up     |
+| C     | Setup database in MongoDB                           | write up     |
+| D     | Secrets, environment variables & connection strings | write up     |
+| E     | Set up the Apollo backend 'example-server'          | write up     |
+| F     | Apollo GraphQL stuff                                | finish notes |
+| G     | Deploy and check 'example-server' in playground     | finish notes |
+| H - Z | ...                                                 | ...          |
 
 ## Part A: Set up accounts in MongoDB Atlas and ZEIT Now
 
@@ -343,7 +342,3 @@ There will be a number of things you'll need to note down for later, eg, paths, 
 <a name="footnote1">[1]</a>: [Create and Deploy a MongoDB-Powered Node.js API with ZEIT Now](https://zeit.co/guides/deploying-a-mongodb-powered-api-with-node-and-now)
 
 <a name="footnote2">[2]</a>: [Environment Variables and Secrets with ZEIT Now](https://zeit.co/docs/v2/environment-variables-and-secrets/?query=sec)
-
-```
-
-```
