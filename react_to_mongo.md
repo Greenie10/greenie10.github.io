@@ -1,11 +1,28 @@
 ---
 layout: default
-title: A journey
+title: Full stack app deployment with ZEIT Now
 ---
 
-# A Journey from React to MongoDB, via Apollo/GraphQL, using ZEIT Now deployment
+# Full stack app deployment with ZEIT Now
+
+"A journey of 1000 miles begins with the first step"
+
+This project was started so many times, and I was caught in a never ending Groundhog Day of GitHub repositories.
 
 (This is _very much_ a work in progress... therefore unfit for human consumption just yet)
+
+## Roadmap
+
+| Part | Title                                               | Next step    |
+| :--- | :-------------------------------------------------- | :----------- |
+| A    | Set up accounts in MongoDB Atlas and ZEIT Now       | write up     |
+| B    | Set up the React frontend 'example-users'           | write up     |
+| C    | Setup database in MongoDB                           | write up     |
+| D    | Secrets, environment variables & connection strings | write up     |
+| E    | Set up the Apollo backend 'example-server'          | write up     |
+| F    | Apollo GraphQL stuff                                | finish notes |
+| G    | Deploy and check 'example-server' in playground     | finish notes |
+| H    |                                                     |              |
 
 ## Part A: Set up accounts in MongoDB Atlas and ZEIT Now
 
@@ -27,7 +44,7 @@ There will be a number of things you'll need to note down for later, eg, paths, 
 - Github integration setup - via 'Integrations' top menu
 - in terminal, install the Now CLI with `npm install -g now` (any of your repositories will be able to deploy to 'now')
 
-## Part B: Set up the React front end `example-users`
+## Part B: Set up the React front end 'example-users'
 
 ### Step 3: Create new repository
 
@@ -45,7 +62,7 @@ There will be a number of things you'll need to note down for later, eg, paths, 
 ### Step 5: Connect local example-users repo to Github
 
 - on [github](github.com), add new repository
-- give it the same name (eg, here it's `example-users`)
+- give it the same name (eg, here it's 'example-users')
 - in terminal:
 
   ```shell
@@ -118,7 +135,7 @@ There will be a number of things you'll need to note down for later, eg, paths, 
 
 ### Step 11: MongoDB connection string
 
-## Part E: The Apollo server `example-server`
+## Part E: Set up the Apollo server 'example-server'
 
 ### Step 12: Setup the repository in GitHub
 
@@ -137,7 +154,7 @@ There will be a number of things you'll need to note down for later, eg, paths, 
 
   - still in terminal `git init`
   - make first commit
-  - from GitHub website, add repository `example-server`
+  - from GitHub website, add repository 'example-server'
   - leave everything default, click Create repository
   - do the _"…or push an existing repository from the command line"_ things eg:
 
@@ -146,7 +163,7 @@ There will be a number of things you'll need to note down for later, eg, paths, 
     git push -u origin master
     ```
 
-### Step 13: Configure `package.json` scripts and `now.json`
+### Step 13: Configure package.json scripts and now.json
 
 - add the following to `package.json`:
 
@@ -158,7 +175,7 @@ There will be a number of things you'll need to note down for later, eg, paths, 
     },
   ```
 
-- create a file called `now.json` at the root of `example-server` repo, and add the following:
+- create a file called `now.json` at the root of 'example-server' repo, and add the following:
 
   ```json
   {
@@ -168,7 +185,7 @@ There will be a number of things you'll need to note down for later, eg, paths, 
   }
   ```
 
-### Step 14: Connect `example-server` to MongoDB Atlas
+### Step 14: Connect 'example-server' to MongoDB Atlas
 
 - the following numbered steps allow connection to MongoDB from your local environment _and_ from the deployed ZEIT Now environment. The MongoDB connection string contains your login details, so is kept in a hidden file: `.env` and is used when running the project locally. However once the repo is deployed on ZEIT Now, `.env` is no longer available. So as well as this local environment variable, you need to setup a 'secret' via the ZEIT Now CLI:
 
@@ -295,9 +312,9 @@ There will be a number of things you'll need to note down for later, eg, paths, 
   };
   ```
 
-## Part G: Deploy and check `example-server` in playground
+## Part G: Deploy and check 'example-server' in playground
 
-- push `example-server` to ZEIT, with either `now` on command line, or git commit and push
+- push 'example-server' to ZEIT, with either `now` on command line, or git commit and push
 - once it's deployed (watch it deploying on your ZEIT dashboard) visit your site and hopefully the Apollo playground will appear
 - check the schema tab shows sensible things (picture)
 - you may need to wake up the MongoDB Atlas cluster, by simply reloading say the cluster page on the website (it's really just a testing playground, you'd have to pay for more of an instant response, always on tier)
